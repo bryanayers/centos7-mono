@@ -5,7 +5,7 @@ ARG VERSION
 
 # Env setup
 ENV HOME /root
-ENV VERSION_FULL ${VERSION}-0.xamarin.3.epel7
+ENV VERSION_FULL ${VERSION}-0.xamarin.2.epel7
 #WORKDIR /tmp
 
 
