@@ -5,7 +5,7 @@ ARG VERSION
 
 # Env setup
 ENV HOME /root
-ENV VERSION_FULL ${VERSION}-0.xamarin.3.epel7
+ENV VERSION_FULL ${VERSION}-0.xamarin.6.epel7
 #WORKDIR /tmp
 
 
@@ -24,7 +24,7 @@ RUN \
 	yum-config-manager --add-repo http://download.mono-project.com/repo/centos/ && \
 	yum -y install \
 		postgresql \
-		libgdiplus0-5.6-0.xamarin.1.epel7 \
+		libgdiplus0-6.0.4-0.xamarin.1.epel7 \
 		mono-core-${VERSION_FULL} \
 		mono-data-${VERSION_FULL} \
 		mono-data-sqlite-${VERSION_FULL} \

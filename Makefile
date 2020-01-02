@@ -1,4 +1,4 @@
-VERSION = 5.20.1.19
+VERSION = 6.6.0.161
 
 IMAGE_NAME = centos7-mono
 REPO_HOST = docker.io
